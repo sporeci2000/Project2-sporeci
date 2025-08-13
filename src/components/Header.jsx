@@ -2,6 +2,7 @@ import { useState } from "react";
 
 //The Header component contains the site logo, navigation menu, and mobile menu toggle
 export default function Header() {
+    
     //state variable to track if the mobile menu is visible
     const [menuOpen, setMenuOpen] = useState(false);
 
@@ -14,9 +15,9 @@ export default function Header() {
                     <div className="nav-left">
                         <img src="/images/logo.svg" alt="logo" />
                         <ul className="nav-menu">
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Resources</a></li>
+                            <li className="nav-element"><a href="#">Features</a></li>
+                            <li className="nav-element"><a href="#">Pricing</a></li>
+                            <li className="nav-element"><a href="#">Resources</a></li>
                         </ul>
                     </div>
 

@@ -8,8 +8,8 @@ export default function LinksList({ links, onCopy }) {
                     <div className="links-part active">
 
                         {/* Loop through each link object in the links array */}
-                        {links.map((link, i) => (
-                            <div className="item" key={i}>
+                        {links.map((link) => (
+                            <div className="item" key={link.id}>
 
                                 {/* Original URL */}
                                 <p className="link">{link.original}</p>
@@ -19,7 +19,7 @@ export default function LinksList({ links, onCopy }) {
                                     <p>{link.short}</p>
                                     <button
                                         className={`copy-btn ${link.copied ? "copied" : ""}`}
-                                        onClick={() => onCopy(link.short, i)}
+                                        onClick={() => onCopy(link.id)} //pass id
                                     >
                                         {/* Change button text if copied */}
                                         {link.copied ? "Copied!" : "Copy"}
