@@ -454,9 +454,9 @@ footer {
     display: none;
     /* Hidden by default */
     position: absolute;
-    top: 100%;
-    left: 5%;
-    right: 5%;
+    top: 60px;
+    right: 1.5rem;
+    width: 450px;
     background-color: hsl(257, 27%, 26%);
     border-radius: 12px;
     padding: 2.5rem 1.5rem;

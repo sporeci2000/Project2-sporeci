@@ -38,9 +38,9 @@ export default function Header() {
                 {menuOpen && (
                     <div className="mobile-menu show">
                         <ul className="nav-menu">
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Resources</a></li>
+                            <li class="nav-element"><a class="nav-link" href="#">Features</a></li>
+                            <li class="nav-element"><a class="nav-link" href="#">Pricing</a></li>
+                            <li class="nav-element"><a class="nav-link" href="#">Resources</a></li>
                         </ul>
                         <hr />
                         <div className="mobile-login-buttons">
