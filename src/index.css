@@ -193,8 +193,8 @@ input[type=text] {
 }
 
 .second-btn {
-  display: inline-block; 
-  margin: 0 auto;      
+  display: inline-block;
+  margin: 0 auto;
   color: white;
   border-radius: 0.9rem;
   font-weight: 700;

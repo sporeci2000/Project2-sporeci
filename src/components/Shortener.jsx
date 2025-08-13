@@ -54,6 +54,7 @@ export default function Shortener({ onAddLink }) {
             //If API request is successful
             if (res.ok) {
                 const data = await res.json();
+                console.log("Bitly response:", data);
 
                 //Call parent's onAddLink function with the original and shortened link
                 onAddLink({ original: url, short: data.link });
