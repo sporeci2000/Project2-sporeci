@@ -41,7 +41,7 @@ export default function Shortener({ onAddLink }) {
                     "Content-Type": "application/json",
 
                     //Authorization token for Bitly AP
-                    Authorization: "Bearer b2218ef7143d1499949570a10c1ed1b57d5c04a3",
+                    Authorization: "Bearer b094fc5055d34cdf1f395390315c60c7fc98bb89",
                 },
                 body: JSON.stringify({
 

@@ -201,7 +201,7 @@ input[type=text] {
   background-color: hsl(180, 66%, 49%);
   cursor: pointer;
   border: 0;
-  padding: 0.6rem 1.5rem;
+  padding: 0.6rem .5rem;
 }
 
 .second-btn:hover {
@@ -432,6 +432,7 @@ footer {
     padding: 1.5rem 0;
     position: relative;
   }
+
 
   .nav-left .nav-menu {
     display: none;
