@@ -20,3 +20,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/writeText
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status   
 https://react.dev/reference/react/useEffect   
 https://react.dev/reference/react/useState   
+
+
+PAGE DEPLOYMENT:
+https://sporeci2000.github.io/Project2-sporeci/
