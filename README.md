@@ -23,4 +23,4 @@ https://react.dev/reference/react/useState
 
 
 PAGE DEPLOYMENT:
-https://sporeci2000.github.io/Project2-sporeci/
+https://charming-starship-669ec5.netlify.app/
