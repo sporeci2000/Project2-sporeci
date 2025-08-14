@@ -21,6 +21,6 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status
 https://react.dev/reference/react/useEffect   
 https://react.dev/reference/react/useState   
 
-
+GitHub Pages gives a blank page due to build path issues, so I used Netlify for deployment instead.
 PAGE DEPLOYMENT:
 https://charming-starship-669ec5.netlify.app/
